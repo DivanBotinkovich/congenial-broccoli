@@ -101,8 +101,8 @@ while run:
             restarting = True
         if health <= 0:
             restarting = True
-        if killed >= 50:
-            win = mainfont.render("You win, 100 killed!", True, (255, 249, 166))
+        if killed >= 25:
+            win = mainfont.render("You win, 25 killed!", True, (255, 249, 166))
             display.blit(win, (200, 430))
             finished = True
         bullets.update()
